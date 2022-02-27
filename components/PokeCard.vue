@@ -12,14 +12,7 @@
 		<div class="text-gray-600 text-sm leading-tight font-medium">
 			<span class="text-gray-900">Height:</span> {{pokeDetails.height}}m
 		</div>
-		<div class="text-gray-600 text-sm leading-tight font-medium">
-			<span class="text-gray-900">Abilities:</span>
-			<span class="text-gray-700">
-				<span v-for="ability,index in pokeDetails.abilities" :key="ability.ability.name+index">
-					{{ability.ability.name.split('-').join(' ')}}{{pokeDetails.abilities.length - 1 !== index ? ', ' : ''}} 
-				</span>
-			</span>
-		</div>
+		<button class="btn btn-primary">More</button>
 	</template>
 	
 </div>
