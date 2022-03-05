@@ -1,5 +1,4 @@
 <template>
-	<div class="spinner-border border-t  animate-spin inline-block w-12 h-12 border-4  rounded-full" role="status">
-		<!-- <span class="visually-hidden">Loading...</span> -->
-	</div>
+<div class="w-16 h-16  rounded-full animate-spin
+                    border-8 border-solid border-t-purple-500 border-gray-50"></div>
 </template>
