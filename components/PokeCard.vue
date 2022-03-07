@@ -14,15 +14,6 @@
 				<img  :src="pokeDetails.sprites.front_default" class="images mb-0" alt="pokemon"  >
 			</div>
 			
-			<div class="text-gray-600 text-sm leading-tight font-medium">
-				<span class="text-gray-900">Weight:</span> {{pokeDetails.weight}}Kg
-			</div>
-			<div class="text-gray-600 text-sm leading-tight font-medium">
-				<span class="text-gray-900">Height:</span> {{pokeDetails.height}}m
-			</div>	
-			<div class="text-gray-600 text-sm leading-tight font-medium">
-				<span class="text-gray-900">Type:</span> <span class="capitalize text-gray">  {{pokeDetails.types[0].type.name}} </span>
-			</div>
 			<button class="btn btn-primary w-full btn-sm py-2 mt-2" @click="showMore">More</button>
 		</template>
 		<template v-else >
